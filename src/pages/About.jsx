@@ -56,20 +56,24 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>MOHTASIM UR RAHMAN</strong> — an aspiring{" "}
-          <strong>Software Engineer</strong> and{" "}
-          <strong>Artificial Intelligence enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation and
-          creativity in technology.
+          I am a Computer Science and Engineering graduate with a strong <strong>research-driven orientation</strong> in 
+          Machine Learning, Data Analytics and intelligent system development. My academic background 
+          and project experience focus on bridging theoretical research with practical implementation, 
+          where I design, experiment with, and optimize data-driven models and full-stack systems to address 
+          real-world problems. I have worked on research-oriented projects spanning healthcare management 
+          systems, IoT- and ML-based smart agriculture solutions, predictive analytics, and intelligent 
+          automation, with an emphasis on model performance, data interpretation, and system scalability.
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with motion and
-          interaction, and finding ways to blend{" "}
-          <strong>artistic creativity</strong> with{" "}
-          <strong>technical precision</strong>. My goal is to build solutions
-          that not only perform — but also inspire.
+          My interests extend to applied artificial intelligence, data-informed decision-making, and 
+          interdisciplinary research, particularly in domains where AI can enhance efficiency, 
+          accessibility, and societal impact. I am experienced in collaborating across software 
+          engineering and research workflows, documenting findings, and translating complex 
+          technical concepts into clear, actionable insights. Driven by curiosity and continuous 
+          learning, I aspire to contribute to impactful research initiatives, publish meaningful
+           work, and develop intelligent systems that combine robust engineering with strong 
+           analytical foundations.
         </p>
 
         <p>
