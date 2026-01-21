@@ -5,11 +5,11 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Hospital Management System',
-    desc: 'A comprehensive, role-based healthcare management system built with PHP and MySQL that streamlines medical operations and improves patient care through specialized dashboards for patients, doctors, and administrators.',
-    ss: '/Me/HMS.jpg',
+    title: '🩺 Hotel Management System',
+    desc: 'Developed a comprehensive role-based healthcare management system featuring dedicated dashboards for patients, doctors, and administrators, enabling efficient appointment booking, patient record management, doctor scheduling, and administrative control, while streamlining medical operations and improving overall patient care through a centralized, user-friendly platform.',
+    ss: '/Me/HMS.jpeg',
     tech: ['HTML', 'CSS', 'PHP', 'JavaScript', 'MySQL'],
-    code: 'https://github.com/mohtasim2003/Hospital-Management-System'
+    code: 'https://github.com/rakibulhasanshakil/summer-wbt-2025/tree/main/Hotel_Management_System'
   },
   {
   title: 'Shop Management System',
