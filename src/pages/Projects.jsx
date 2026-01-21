@@ -33,26 +33,12 @@ const PROJECTS = [
   code: '--'
   },
   {
-    title: 'Air-Line Management System',
-    desc: 'Developed a comprehensive platform to automate core airline tasks from scheduling to ticketing. This digital solution replaces manual workflows to ensure smooth operational flow and data integrity.',
-    ss: '/Me/air.jpg',
-    tech: ['C#', 'T-SQL', 'SQL Server'],
-    code: 'https://github.com/mohtasim2003/Air-Line-Management-System'
-  },
-  {
     title: 'Sea Port Simulation (Computer Graphics)',
     desc: 'Created an interactive Sea Port environment using C++ and OpenGL featuring real-time rendering of Day, Night and Rain atmospheric modes.',
     ss: '/Me/port.jpg',
     tech: ['C++', 'OpenGL', 'GLUT'],
-    code: 'https://github.com/mohtasim2003/Graphics-Project'
+    code: 'https://github.com/rakibulhasanshakil/Sea-Port-View'
   },
-  {
-    title: 'University Management System',
-    desc: 'A comprehensive technical report detailing the Software Development Life Cycle (SDLC) of a University Management System. This document covers: Requirements Analysis, System Design, Implementation, Testing, Deployment.',
-    ss: '/Me/SDLC.png',
-    tech: ['Doccumentation'],
-    code: 'https://github.com/mohtasim2003/UNIVERSITY-MANAGEMENT-SYPSTEM-Software-'
-  }
 ]
 
 export default function Projects() {
