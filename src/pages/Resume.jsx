@@ -113,7 +113,7 @@ export default function Resume() {
               <span style={{ color: "#aaa" }}>CGPA: --</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>SBAF Shaheen College</strong> (Chittagong
+              <strong>BAF Shaheen College</strong> (Chittagong
               Board, 2021) <br />
               <span style={{ color: "#aaa" }}>GPA: 5.00</span>
             </li>

@@ -5,11 +5,11 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Hotel Management System',
-    desc: 'Developed a comprehensive role-based healthcare management system featuring dedicated dashboards for patients, doctors, and administrators, enabling efficient appointment booking, patient record management, doctor scheduling, and administrative control, while streamlining medical operations and improving overall patient care through a centralized, user-friendly platform.',
-    ss: '/Me/HMS.jpeg',
+    title: '🩺 Doctor Hub',
+    desc: 'Developed a role-based healthcare management system with dedicated dashboards for patients, doctors, and administrators, supporting appointment booking, patient record management, and doctor scheduling to streamline medical operations and enhance patient care.',
+    ss: '/Me/Doctor.png',
     tech: ['HTML', 'CSS', 'PHP', 'JavaScript', 'MySQL'],
-    code: 'https://github.com/rakibulhasanshakil/summer-wbt-2025/tree/main/Hotel_Management_System'
+    code: 'https://github.com/rakibulhasanshakil/Health-Guide'
   },
   {
   title: 'Dhaka Subway Reservation System',
