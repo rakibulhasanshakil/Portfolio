@@ -76,13 +76,6 @@ const AboutMe = () => {
            analytical foundations.
         </p>
 
-        <p>
-            4th-year Computer Science and Engineering student at American International University-Bangladesh 
-            (AIUB) with hands-on experience in software engineering & ML+Iot Projects. Proficient in .Net core, 
-            java, Web technologies and data preprocessing. Seeking internship opportunities to apply skills and 
-            contribute to impactful software solutions.
-        </p>
-
         {/* --- Education Section --- */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
