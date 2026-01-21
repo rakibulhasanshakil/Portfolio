@@ -74,7 +74,6 @@ export default function Contact() {
     { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+8801959995961" },
     { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/_rh_shakil_/" },
     { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/share/17ih9VcSCw/" },
-    { img: portfolio, title: "Portfolio", link: "/" },
   ];
 
 
