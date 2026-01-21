@@ -12,11 +12,11 @@ const PROJECTS = [
     code: 'https://github.com/rakibulhasanshakil/summer-wbt-2025/tree/main/Hotel_Management_System'
   },
   {
-  title: 'Shop Management System',
-  desc: 'A Java-based desktop application built using Java and Swing for managing shop operations such as employee management, product tracking, and sales management.',
-  ss: '/Me/Shop.jpg',
-  tech: ['JAVA', 'GUI Framework', 'Swing'],
-  code: 'https://github.com/mohtasim2003/Shop-Management-System'
+  title: 'Dhaka Subway Reservation System',
+  desc: 'Designed a metro ticketing, scheduling, and seat reservation system featuring a dynamic ticket-selling interface with real-time pricing, a smart seat assignment algorithm to prevent overbooking, and printable digital ticket generation with QR code–based verification.',
+  ss: '/Me/Sub.png',
+  tech: ['C#', 'MySQL','.NET Framework'],
+  code: 'https://github.com/rakibulhasanshakil/DSRS'
   },
   {
     title: 'Crop Recommendation System',
