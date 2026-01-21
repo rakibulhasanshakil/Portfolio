@@ -5,11 +5,11 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Doctor Hub',
-    desc: 'Developed a role-based healthcare management system with dedicated dashboards for patients, doctors, and administrators, supporting appointment booking, patient record management, and doctor scheduling to streamline medical operations and enhance patient care.',
-    ss: '/Me/Doctor.png',
+    title: 'Hotel Management System',
+    desc: 'Developed an end-to-end booking management platform featuring an interactive reservation and billing interface with automated invoice generation, an admin dashboard for room availability, customer records, and payment tracking, and improved UI/UX to enable faster navigation and smoother check-in/check-out workflows.',
+    ss: '/Me/HMS.jpeg',
     tech: ['HTML', 'CSS', 'PHP', 'JavaScript', 'MySQL'],
-    code: 'https://github.com/rakibulhasanshakil/Health-Guide'
+    code: 'https://github.com/rakibulhasanshakil/summer-wbt-2025/tree/main/Hotel_Management_System'
   },
   {
   title: 'Dhaka Subway Reservation System',
@@ -31,6 +31,13 @@ const PROJECTS = [
   ss: '/Me/cleaner.jpg',
   tech: ['Arduino Uno', 'Ultrasonic Sensors', 'C++', 'L298N Motor Driver', 'DC Motors', 'Servo Motor'],
   code: '--'
+  },
+  {
+    title: '🩺 Doctor Hub',
+    desc: 'Developed a role-based healthcare management system with dedicated dashboards for patients, doctors, and administrators, supporting appointment booking, patient record management, and doctor scheduling to streamline medical operations and enhance patient care.',
+    ss: '/Me/Doctor.png',
+    tech: ['Java', 'GUI Framework', 'Swing', 'MySQL'],
+    code: 'https://github.com/rakibulhasanshakil/Health-Guide'
   },
   {
     title: 'Sea Port Simulation (Computer Graphics)',
