@@ -247,7 +247,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/Me/CV_SHAKIL.pdf"
+          href="/Me/My_CV.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
