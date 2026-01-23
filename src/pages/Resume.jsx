@@ -53,7 +53,7 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 RAKIB HASAN SHAKIL
+              👨‍💻 RAKIBUL HASAN SHAKIL
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
               Computer Science and Engineering | <br></br>American International University-Bangladesh
@@ -110,7 +110,7 @@ export default function Resume() {
             <li>
               <strong>Computer Science and Engineering</strong> — 
               American International University-Bangladesh , 2026 <br />
-              <span style={{ color: "#aaa" }}>CGPA: --</span>
+              <span style={{ color: "#aaa" }}>CGPA: 3.77</span>
             </li>
             <li style={{ marginTop: 8 }}>
               <strong>BAF Shaheen College</strong> (Chittagong
