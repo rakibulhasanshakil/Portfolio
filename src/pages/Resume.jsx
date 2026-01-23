@@ -59,7 +59,7 @@ export default function Resume() {
               Computer Science and Engineering | <br></br>American International University-Bangladesh
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Bashundhara, Dhaka, Bangladesh
+              📍 Bashundhara, R/A Dhaka, Bangladesh
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
               ✉️ hasanshakilr@gmail.com| 📞 +88 01959995961
@@ -234,7 +234,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/Me/CV_SHAKIL.pdf"
+            src="E:\Portfolio\public\Me\My_CV.pdf"
             title="RAKIBUL HASAN SHAKIL's CV"
             style={{
               width: "100%",
