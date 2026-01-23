@@ -234,7 +234,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/Me/MY_CV.pdf"
+            src="E:\Portfolio\public\Me\My_CV.pdf"
             title="RAKIBUL HASAN SHAKIL's CV"
             style={{
               width: "100%",
@@ -247,7 +247,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/Me/MY_CV.pdf"
+          href="E:\Portfolio\public\Me\My_CV.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
