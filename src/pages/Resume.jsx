@@ -234,7 +234,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="E:\Portfolio\public\Me\My_CV.pdf"
+            src="/Me/MY_CV.pdf/"
             title="RAKIBUL HASAN SHAKIL's CV"
             style={{
               width: "100%",
