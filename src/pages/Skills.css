@@ -1,103 +1,167 @@
-/* ---------- Header: smaller, left-aligned, no big gaps ---------- */
+/* ================================
+   Professional Skills Section
+================================== */
+
+.skills-container {
+  padding: 46px 0 20px;
+}
+
+/* ---------- Header ---------- */
 .skills-header {
-  text-align: left;        /* align header to left */
-  margin: 10px 0 12px 4%;     /* remove big top/bottom gaps, small left offset to match orbs */
+  text-align: left;
+  margin: 10px 0 14px 4%;
   padding: 0;
-  max-width: calc(100% - 8%); 
+  max-width: calc(100% - 8%);
 }
 
 .skills-header h2 {
-  font-size: 1.25rem;      /* smaller title */
+  font-size: 1.35rem;
   color: #00ffe0;
-  font-weight: 600;
-  margin: 0;               /* remove default margin so there's no extra gap */
-  line-height: 1.05;
+  font-weight: 650;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: 0.3px;
 }
 
 .underline {
-  width: 60px;
+  width: 64px;
   height: 2px;
-  background: #00ffe0;
-  margin: 6px 0 8px 0;     /* left aligned under title */
+  background: linear-gradient(90deg, #00ffe0, rgba(0, 255, 224, 0.2));
+  margin: 8px 0 10px 0;
+  border-radius: 50px;
 }
 
-/* subtitle (small & tight) */
 .skills-header p {
-  color: #b0b0b0;
-  font-size: 0.95rem;
+  color: rgba(200, 200, 200, 0.78);
+  font-size: 0.98rem;
   margin: 0;
   padding: 0;
+  max-width: 680px;
 }
 
-/* ---------- Orb area: narrower margins and reduced height ---------- */
+/* ---------- Orb Stage ---------- */
 .skills-stage {
   position: relative;
-  width: 94%;              /* slightly wider so less left/right margin */
+  width: 94%;
   max-width: 1200px;
-  height: 360px;           /* reduced height (change this number to your exact preference) */
-  margin: 20px auto;       /* small vertical gap only */
-  border-radius: 14px;
+  height: 380px;
+  margin: 18px auto 10px;
+  border-radius: 16px;
   background: radial-gradient(circle at 50% 50%, #080808, #0f0f0f);
-  box-shadow: inset 0 0 40px rgba(0, 255, 255, 0.08);
+  border: 1px solid rgba(0, 255, 255, 0.09);
+  box-shadow: inset 0 0 40px rgba(0, 255, 255, 0.06);
   overflow: hidden;
 }
 
-/* Shrink the orbs themselves (logo + text) without touching skill-table */
+/* Premium glow layers */
+.skills-glow {
+  position: absolute;
+  inset: -30%;
+  pointer-events: none;
+  filter: blur(50px);
+  opacity: 0.34;
+  mix-blend-mode: screen;
+}
+
+.skills-glow.g1 {
+  background: radial-gradient(circle at 28% 30%, rgba(0, 255, 255, 0.16), transparent 55%);
+}
+
+.skills-glow.g2 {
+  background: radial-gradient(circle at 72% 60%, rgba(0, 255, 200, 0.11), transparent 55%);
+}
+
+/* ---------- Orbs ---------- */
 .skill-circle {
   position: absolute;
-  width: 68px;             /* smaller orb */
-  height: 68px;            /* smaller orb */
-  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  border-radius: 999px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 255, 255, 0.04);
-  border: 1px solid rgba(0, 255, 255, 0.18);
-  backdrop-filter: blur(6px);
+
+  background: rgba(0, 255, 255, 0.035);
+  border: 1px solid rgba(0, 255, 255, 0.16);
+  backdrop-filter: blur(8px);
   cursor: pointer;
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+  will-change: transform;
+}
+
+.skill-circle:hover {
+  box-shadow: 0 0 18px rgba(0, 255, 255, 0.35);
+  border-color: rgba(0, 255, 255, 0.3);
+  background: rgba(0, 255, 255, 0.06);
 }
 
 .skill-circle img {
-  width: 28px;             /* smaller icon */
-  height: 28px;
-  margin-bottom: 2px;      /* very small gap */
-  filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.36)) brightness(1.1);
+  width: 30px;
+  height: 30px;
+  margin-bottom: 3px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 7px rgba(0, 255, 255, 0.3)) brightness(1.1);
 }
 
 .skill-circle span {
-  font-size: 10px;         /* smaller label */
-  color: rgba(180, 255, 255, 0.9);
+  font-size: 10.5px;
+  color: rgba(200, 255, 255, 0.9);
   line-height: 1;
   margin: 0;
   padding: 0;
+  letter-spacing: 0.2px;
 }
 
-/* ---------- Ensure bottom skill boxes are unchanged ---------- */
-/* Keep your existing styles for .skills-table, .skills-row, .skill-box */
-/* (if you previously had them, they remain valid and won't be impacted) */
-
-/* Example: if needed, re-declare to ensure no inherited changes */
+/* ---------- Skills Table ---------- */
 .skills-table {
-  margin-top: 50px;
+  margin-top: 46px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 34px;
 }
 
 .skills-row {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 26px;
   flex-wrap: wrap;
 }
 
+/* More professional cards */
 .skill-box {
-  background: linear-gradient(145deg, #080808 0%, #0f0f0f 100%);
-  border: 1px solid rgba(0, 255, 255, 0.12);
-  border-radius: 12px;
-  padding: 18px 22px;
-  width: 300px;
+  background: linear-gradient(145deg, rgba(8, 8, 8, 0.95) 0%, rgba(15, 15, 15, 0.98) 100%);
+  border: 1px solid rgba(0, 255, 255, 0.11);
+  border-radius: 14px;
+  padding: 18px 20px;
+  width: 310px;
   text-align: left;
+
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+}
+
+.skill-box:hover {
+  border-color: rgba(0, 255, 255, 0.22);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+
+.skill-box h3 {
+  margin: 0 0 10px;
+  font-size: 1.06rem;
+  font-weight: 650;
+  color: rgba(235, 255, 255, 0.92);
+  letter-spacing: 0.25px;
+}
+
+.skill-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.skill-box li {
+  color: rgba(195, 195, 195, 0.85);
+  margin: 6px 0;
+  line-height: 1.35;
 }

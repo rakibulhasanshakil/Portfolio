@@ -7,23 +7,23 @@ const IMAGES = {
   personal: [
     {
       id: 1,
-      caption: "Lost in the beauty of the misty forest!",
+      caption: "",
       photos: ["", "", ],
     },
     {
       id: 3,
-      caption: "A serene moment by the lakeside at sunset.",
+      caption: "",
       photos: ["", ""],
     },
     {
       id: 2,
       caption:
-        "Unspoken understanding between captured in a single frame ❤️",
+        "",
       photos: ["" ],
     },
     {
       id: 4,
-      caption: "Cherishing the simple joys of life.",
+      caption: ".",
       photos: ["" ],
     }
   ],
@@ -38,19 +38,19 @@ const IMAGES = {
     {
       id: 1,
       caption:
-        "Cisco IT Essential Certificate!",
+        "",
       photos: ["", ],
     },
   ],
   achievements: [
     {
       id: 1,
-      caption: " 🏆Seasonal Competition-2018!",
+      caption: " ",
       photos: ["" ],
     },
     {
       id: 2,
-      caption: " 🤖Kishor Kishori Conference-2018",
+      caption: " ",
       photos: [""],
     },
   ],
