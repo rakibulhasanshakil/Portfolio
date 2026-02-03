@@ -62,7 +62,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="RAKIBUL HASAN SHAKIL"
+              alt="R"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}

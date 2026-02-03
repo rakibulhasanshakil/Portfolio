@@ -8,7 +8,7 @@ const links = [
   //{ label: "Gallery", to: "/gallery" },
   { label: "Skills", to: "/skills" },
   { label: "Resume", to: "/resume" },
-  { label: "About Me", to: "/about" },
+  //{ label: "About Me", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
 

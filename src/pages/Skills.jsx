@@ -27,9 +27,9 @@ const SKILLS = [
 
 const ROWS = [
   [
-    { title: "Programming Languages", items: ["Python", "TypeScript", "C++", "C#", "Java", "PHP"] },
+    { title: "Programming Languages", items: ["Python", "C++", "C#", "Java", "PHP"] },
     { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React", "Nextjs", "Nodejs",] },
-    { title: "Databases & Tools", items: ["MySQL", "PostgreSQL", "MongoDB", "Git", "Jira", "Github", ] },
+    { title: "Databases & Tools", items: ["MySQL", "PostgreSQL", "Git", "Jira", "Github", ] },
     { title: "Frameworks & Libraries", items: ["MVC .Net", "React.js", ".Net Core", "Bootstrap", "Nest.ts"] },
   ],
   [
